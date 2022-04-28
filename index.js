@@ -106,7 +106,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('running server')
+    res.send('Genius Server is running')
 });
 
 app.listen(port, () => {
