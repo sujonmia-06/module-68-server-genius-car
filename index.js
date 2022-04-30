@@ -109,6 +109,10 @@ app.get('/', (req, res) => {
     res.send('Genius Server is running')
 });
 
+app.get('/hero', (req, res) => {
+    res.send('hero is connected')
+})
+
 app.listen(port, () => {
     console.log('listening on port', port);
 });
